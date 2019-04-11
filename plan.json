@@ -1,0 +1,55 @@
+{
+	"startDate": "",
+	"endDate": "",
+	"title":"owner",
+	createdBy:"string"
+	"owner":"uatuser@newlogic.io",
+	"activities": [{
+		"activity": "Daily Reporting",
+		"date": "",
+		"type": "WG1",
+		"subActivities": [{
+				"task": "MM",
+				"caseGroup": {
+					"old": "6",
+					"new": null
+				},
+				"participants": ["Shay John", "Alan Schmidt", "Paul McCan"],
+				"place": {
+					"venue": "",
+					"district": "",
+					"sector": "",
+					"cell": "",
+					"village": ""
+				}
+			},
+			{
+				"task": "Case Management Meeting",
+				"caseGroup": {
+					"old": "6",
+					"new": null
+				},
+				"participants": ["Manuel Neuer", "Ter Stegen"],
+				"place": {
+					"venue": "",
+					"district": "",
+					"sector": "",
+					"cell": "",
+					"village": ""
+				}
+				###"responsible": "Mats Hummels",
+				###"status": "closed"
+			}
+		],
+		"responsible": "Jane Holmes,Euphegenia DoubtFire",
+		"status": "pending"
+
+	}]
+}
+
+/*************************notification***************************************
+{
+	"source":"jonahkiprop34@gmail.com",
+	"message":"work plan [plan id] created.view your work tracker",
+	"recepients":[{"target":"alex.kibii@cll.com","read:true"},{"target":"vishalshah@lync.com","read":false}]
+}

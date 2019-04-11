@@ -1,0 +1,45 @@
+{
+	"case_no": "",
+	"name": "",
+	"placement_date": "",
+	"family_type": "",
+	"family_composition": {
+		"household_head": {
+			"name": "",
+			"relationship_to_child": "",
+			"phone": ""
+		},
+		"household_members": [{
+			"name": "",
+			"relationship_to_child": "",
+			"phone": ""
+		}]
+	},
+	"placement_address": {
+		"Province": "",
+		"District": "",
+		"Sector": "",
+		"Cell": "",
+		"Village": ""
+	},
+	"support": {
+		"medical_insurance": false,
+		"school_fees": false,
+		"materials": false,
+		"household_items": false,
+		"livelihood_support": false,
+		"assistive_devices": false,
+		"training_or_parenting_support": false,
+		"counselling_support": false,
+		"other": true,
+		"other_support": "describe this other support",
+		"start_date_of_support": "",
+		"end_date_of_support":""
+		"duration_of_support": 3,
+		"cost_of_support": ""
+	},
+	"family_contract": {
+		"signed": true
+	}
+
+}

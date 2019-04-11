@@ -1,0 +1,28 @@
+{
+	"name":""loporon yebei",
+	"case_no" :"xxxx",
+	"startdate":"",
+	"enddate":"",
+	"education":{
+		"level_of_education":"A level",
+		"does_the_child_go_to_school": "",
+		"level":"",
+		"school_name":"",
+		"contact_details":"",
+		"reason_child_does_not_go_to_school":"",
+		"pays_school_fees":"",
+		"reason_no_one_pays_fees":""
+	},
+	"health":{
+		"visible_health_issues_needing_address": true|false,
+		"action_taken":"",
+		"is_child_immunized":"",
+		"immunization":{
+			"BGC":"",
+			"OPV/POLIO 0 2 3":"",
+			"PCV":"",
+			"DTP (Pentavalent) Hep B – Hib 1 2 3":"",
+			"Measles":"",
+		}
+	}
+}

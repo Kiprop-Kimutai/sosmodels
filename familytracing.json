@@ -1,0 +1,30 @@
+{
+	"case_no": "",
+	"name": "",
+	"field_visits": [{
+			"date": "",
+			"name_of_individual": "",
+			"address": "",
+			"description": "",
+			"comment": ""
+		},
+		{
+			"date": "",
+			"name_of_individual": "",
+			"address": "",
+			"description": "",
+			"comment": ""
+		}
+	],
+	"trace_status": {
+		"successful": false,
+		"date": "",
+		"type_of_family": "",
+		"proof_of_no_trace_doc_no": "",
+		"additional_info": ""
+	},
+	"child_acceptance": {
+		"accepted": true,
+		"refusal_form_no": ""
+	}
+}

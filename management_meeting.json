@@ -1,0 +1,17 @@
+{
+	"case_no":"",
+	"name":"",
+	"date":"",
+	"attendants":[
+		{
+			"name":"",
+			"position":""
+		}
+	],
+	"recommendations":[
+		{
+			"no":Integer,
+			"point": ""
+		}
+	]
+}
