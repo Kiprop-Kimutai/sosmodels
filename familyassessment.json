@@ -1,0 +1,225 @@
+{
+	"name": "Loporon Yebei",
+	"case_no": "xxxx",
+	"startdate": "",
+	"enddate": "",
+	"basic_details": {
+		"address": {
+			"Province": "",
+			"District": "",
+			"Sector": "",
+			"Cellule": "",
+			"Village": ""
+		},
+		"type_of_family": {
+			"family": "",
+			"other": ""
+		},
+		"cell_level_official": {
+			"name": "",
+			"phone": ""
+		},
+		"village_chief": {
+			"name": "",
+			"phone": ""
+		},
+		"household_head": {
+			"name": "",
+			"dob": "",
+			"education_level": "",
+			"schooling": "yes|no",
+			"relationship_to_child": "",
+			"phone_number": "",
+			"marital_status": {
+				"married": "yes|no",
+				"years_in_marriage": 14
+			}
+		},
+		"household_members": [{
+			"name": "",
+			"dob": "",
+			"education_level": "",
+			"schooling": "yes|no",
+			"relationship_to_child": "",
+			"phone_number": ""
+		}],
+		"family_members_without_household": [{
+			"name": "",
+			"dob": "",
+			"education_level": "",
+			"schooling": "yes|no",
+			"relationship_to_child": "",
+			"phone_number": ""
+		}]
+	},
+	"relationship_between_family_and_child": {
+		"related_to_or_knows_child": true,
+		"true": {
+			"reason_for_separation": "",
+			"regular_contact": "yes|no",
+			"current_family_situation": "",
+			"views_about_TMM_programme": "",
+			"consideration_to_take_back_child": "yes|no",
+			"expectations": ""
+		},
+		"false": {
+			"views_about_TMM_programme": "",
+			"motivation_to_take_in_child": "",
+			"current_family_situation": "",
+			"how_will_the_child_fit": "",
+			"wish_to_reintegrate_child_of_particular_age_group": "yes|no",
+			"expectations": "",
+			"foreseeable_challenges": ""
+		}
+	},
+	"family_assessment": {
+		"family_characterisitics_and_relationships": {
+			"stressful_childhood": {
+				"experienced": "yes|no",
+				"information": ""
+			},
+			"childhood_abuse_by_adults": {
+				"experienced": "yes|no",
+				"information": ""
+			},
+			"traumatic_crisis": {
+				"experienced": "yes|no",
+				"information": ""
+			},
+			"history_of_violence": {
+				"experienced": "yes|no",
+				"information": ""
+			},
+			"history_of_imprisonment": {
+				"experienced": "yes|no",
+				"information": ""
+			},
+			"suspicion_of_criminal_offence": {
+				"experienced": "yes|no",
+				"information": ""
+			},
+			"suspicion_of_child_abuse": {
+				"experienced": "yes|no",
+				"information": ""
+			},
+			"suspicion_of_domestic_violence": {
+				"experienced": "yes|no",
+				"information": ""
+			},
+			"poor_mental_health": {
+				"experienced": "yes|no",
+				"information": ""
+			},
+			"poor_physical_health": {
+				"experienced": "yes|no",
+				"information": ""
+			},
+			"behavioral_problems": {
+				"experienced": "yes|no",
+				"information": ""
+			},
+			"disability": {
+				"experienced": "yes|no",
+				"information": ""
+			},
+			"sensory_impairment": {
+				"experienced": "yes|no",
+				"information": ""
+			},
+			"drug_alcohol_abuse": {
+				"experienced": "yes|no",
+				"information": ""
+			},
+			"other": "",
+			"willingness_to_take_in_more_than_one_child": "",
+			"comments": ""
+		},
+		"social_relationship_and_community_support": {
+			"acceptance_in_the_community": "yes|no",
+			"discrimination_or_harassment": "yes|no",
+			"involvement_in_community_events": "yes|no",
+			"family_members_in_same_village": "yes|no",
+			"further_information": ""
+		},
+		"living_conditions": {
+			"legal_status_of_shelter": "owned|rented|leased",
+			"type_of_shelter": "house|shared house|apartment|homeless",
+			"number_of_rooms_for_adults": 3,
+			"number_of_rooms_for_children": 2,
+			"indoor_toilets": false,
+			"outdoor_toilets": true,
+			"basic_provisions": {
+				"chairs": true,
+				"beds": true,
+				"cooking_facilities": true,
+				"food_strorage": true,
+				"cleanliness": true
+			},
+			"security_protection_risk": {
+				"risk": true,
+				"explanation": ""
+			}
+		},
+		"economic_factors": {
+			"regular_income": {
+				"earned": "yes|no",
+				"household_members": [{
+					"name": "",
+					"profession": ""
+				}]
+			},
+			"income_generating_activity": {
+				"seasonal_work": "",
+				"occasional_work": "",
+				"working_abroad": "",
+				"working_away_from_home": "",
+				"remittances": ""
+			},
+			"VUP_Programme": {
+				"enrolled": "yes|no",
+				"level_of_ubudehe": 1
+			},
+			"health_insurance": false,
+			"work_impact_on_child_care": {
+				"adversely_impact": "yes",
+				"explanation": ""
+			},
+			"income_management": false,
+			"in_debt": false,
+			"worries_on_financial_situation": false,
+			"own_cultivable_land": true,
+			"own_livestock": true,
+			"involvement_in_other_income_generating_activities": true,
+			"school_attendance": {
+				"attending": "yes|no|not at all",
+				"explanation": ""
+			},
+			"availability_of_resources_to_finance_additional_childs_education": {
+				"available": true,
+				"explananation": ""
+			},
+			"total_income_per_month": "",
+			"total_bills_per_month": "",
+			"total_debt": "",
+			"service_unaivalability": {
+				"unavailable": "yes",
+				"information": ""
+			}
+		}
+	},
+	"considerations": {
+		"disabilites_consideration": {
+			"consideration": "yes|no",
+			"explanation": ""
+		},
+		"siblings_consideration": {
+			"consideration": "yes|no",
+			"explanation": ""
+		},
+		"additional_notes": ""
+	},
+	"conclusion_and_recommendation": {
+		"consideration": "",
+		"explanation": ""
+	}
+}

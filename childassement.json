@@ -1,28 +1,182 @@
 {
-	"name":""loporon yebei",
-	"case_no" :"xxxx",
-	"startdate":"",
-	"enddate":"",
-	"education":{
-		"level_of_education":"A level",
+	"name": "Loporon Yebei",
+	"case_no": "xxxx",
+	"startdate": "",
+	"enddate": "",
+	"education": {
+		"level_of_education": "A level",
 		"does_the_child_go_to_school": "",
-		"level":"",
-		"school_name":"",
-		"contact_details":"",
-		"reason_child_does_not_go_to_school":"",
-		"pays_school_fees":"",
-		"reason_no_one_pays_fees":""
-	},
-	"health":{
-		"visible_health_issues_needing_address": true|false,
-		"action_taken":"",
-		"is_child_immunized":"",
-		"immunization":{
-			"BGC":"",
-			"OPV/POLIO 0 2 3":"",
-			"PCV":"",
-			"DTP (Pentavalent) Hep B – Hib 1 2 3":"",
-			"Measles":"",
+		"level": "",
+		"school_name": "",
+		"contact_details": "",
+		"reason_child_does_not_go_to_school": "",
+		"school_fees": {
+			"paid": true,
+			"paid_by": "Jonah Hexx",
+			"reason_no_one_pays_fees": ""
 		}
+
+	},
+	"health": {
+		"visible_health_issues": {
+			"observed": true,
+			"actions": ""
+		},
+		"immunization": {
+			"immunized": "yes|no|unknown",
+			"BGC": false,
+			"OPV/POLIO 0 1 2 3": false,
+			"PCV": false,
+			"DTP (Pentavalent) Hep B – Hib 1 2 3": false,
+			"Measles": false
+		},
+		"current_height": 140,
+		"current_weight": "",
+		"weight_at_birth": "",
+		"health_insurance": "yes|no|unknown",
+		"disability": {
+			"disabled": false,
+			"impairment": {
+				"physical": false,
+				"mental": false,
+				"visual": false,
+				"hearing": false,
+				"verbal": false,
+				"unspecified": "",
+				"further_details": ""
+			}
+		},
+		"specific_diseases": {
+			"known": "yes|no",
+			"diseases": {
+				"HIV/AIDS": false,
+				"tuberculosis": false,
+				"epilespy": false,
+				"heart_problems": false,
+				"trauma": "",
+				"malnutrition": "",
+				"other": ""
+			},
+			"treatment": {
+				"received": true,
+				"explanation": ""
+			}
+		},
+		"health_needs": {
+			"special_diet": false,
+			"dietary_supplement": false,
+			"immunization": false,
+			"medical_diagnosis": false,
+			"chronic_treatment": false,
+			"specialized_medical_facilities": false,
+			"visual_aid": "",
+			"physiotherapy": "",
+			"hearing_aid": "",
+			"surgery": "",
+			"hospice/palliative_care": "",
+			"life_support": "",
+			"other": ""
+		}
+	},
+	"behavioral_characteristics": {
+		"aggressive_towards_others": false,
+		"socialization_issues": false,
+		"isolation": true,
+		"anger": false,
+		"wetting_bed": true,
+		"disobedience": false,
+		"cry_for_no_serious_reason": true,
+		"stealing": false,
+		"lying": false,
+		"self_harming": false,
+		"drug_abuse": false,
+		"alcohol_addiction": false,
+		"further_details": ""
+	},
+	"child_assessment": {
+		"date_of_assessment": "",
+		"assessment_tool": "Portage",
+		"analysis": {
+			"autonomy/self_care": "",
+			"gross_motor_skills": "",
+			"fine_motor_skills": "",
+			"cognitive_development": "",
+			"emotional_and_behavioral_development": "",
+			"socialization": "",
+			"observations_of_care_givers": ""
+		}
+	},
+	"general_well_being_and_history": {
+
+	},
+	"protection_concerns": {
+		"pyhsical_violence": true,
+		"neglect": true,
+		"abandonment": true,
+		"sexual_violence_or_gbv": true,
+		"serious_health_issue": true,
+		"trafficked": true,
+		"pyschological_violence": true,
+		"street_child": false,
+		"disabled": false,
+		"psychological_distress": "",
+		"refugee": false,
+		"child_labour": false,
+		"violent_disciplining": false,
+		"mentally_distress": false,
+		"arrested_or_detained": true,
+		"exploitation": false,
+		"mother_under_18": false,
+		"other": true,
+		"further_information": "",
+		"referral": {
+			"raised": false,
+			"reffered": "Village chief"
+		},
+		"child_safety": {
+			"safe": true,
+			"explanation": "",
+			"referrals": [{
+				"date": "",
+				"service_provider": "",
+				"contact_details": ""
+			}]
+		},
+		"immediate_action": {
+			"required": true,
+			"action": "",
+			"actor": ""
+		},
+		"middle_long_term_action": {
+			"required": true,
+			"action": "",
+			"actor": ""
+		}
+
+	},
+	"childs_wishes": {
+		"reunion": {
+			"wish": "yes|no|don't know",
+			"adults": [{
+				"name": "",
+				"relationship_to_child": "",
+				"phone": "",
+				"address": {
+					"Province": "",
+					"District": "",
+					"Sector": "",
+					"Cellule": "",
+					"Village": ""
+				}
+			}],
+			"explanation": "",
+			"information_of_relevance_in_tracing": "",
+			"documents_carried_by_the_child": ""
+		}
+	},
+	"observations_during_child_assessment": "",
+	"recommended_placement": {
+		"placement": "",
+		"other_placement": ""
 	}
 }
