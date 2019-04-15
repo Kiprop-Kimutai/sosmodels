@@ -1,0 +1,111 @@
+{
+	"caseno": "generatedbydatabase",
+	"partner": "",
+	"startdate": "",
+	"enddate": "",
+	"social_worker": "",
+	"psychologist": "",
+	"case_workers": [{
+		"name": ""
+	}],
+	"address": {
+		"Province": "",
+		"District": "",
+		"Sector": "",
+		"Cellule": "",
+		"Village": ""
+	},
+	"institution": "",
+	"entry_date": "",
+	"contact_person": {
+		"name": "",
+		"phone": ""
+	},
+	"InshutizUmuryango": {
+		"name": "",
+		"position": "",
+		"phone": ""
+	},
+	"child_personal_details": {
+		"name": "",
+		"place_of_birth": "",
+		"dob": "",
+		"sex": "M",
+		"nationality": "",
+		"phone": "",
+		"address": {
+			"Province": "",
+			"District": "",
+			"Sector": "",
+			"Cellule": "",
+			"Village": ""
+		}
+	},
+	"current_care_arrangements": {
+		"current_care_arrangement": "",
+		"other": "",
+		"institution": {
+			"name": "",
+			"phone": "",
+			"address": {
+				"Province": "",
+				"District": "",
+				"Sector": "",
+				"Cellule": "",
+				"Village": ""
+			}
+		},
+		"additional_info": ""
+	},
+	"persons_of_importance_to_child": {
+		"living_with_child": [{
+			"name": "",
+			"relationship": "",
+			"phone": ""
+		}],
+		"not_living_with_child": [{
+			"name": "",
+			"relationship": "",
+			"phone": ""
+		}],
+		"siblings": {
+			"in_same_or_different_institutions": "",
+			"siblings": [{
+				"name": "",
+				"institution": "",
+				"contact": ""
+			}],
+			"additional_info": ""
+		}
+	},
+	"history_of_separation": {
+		"date_of_separation": "",
+		"date_of_placement": "",
+		"address": {
+			"Province": "",
+			"District": "",
+			"Sector": "",
+			"Cellule": "",
+			"Village": ""
+		},
+		"cause_of_separation": {
+			"conflict": false,
+			"abandonment": false,
+			"poverty": false,
+			"death_of_mother": false,
+			"death_of_father": false,
+			"natural_disaster": false,
+			"family_abuse": false,
+			"family_violence": false,
+			"family_exploitation": false,
+			"population_movement": false,
+			"lack_of_support": false,
+			"sickness_of_family_member": false,
+			"divorce": false,
+			"entrusted_into_care": false,
+			"other": "",
+			"other_cause": ""
+		}
+	},
+	"photo": ""
+}

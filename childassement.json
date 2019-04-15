@@ -4,7 +4,6 @@
 	"startdate": "",
 	"enddate": "",
 	"education": {
-		"level_of_education": "A level",
 		"does_the_child_go_to_school": "",
 		"level": "",
 		"school_name": "",
@@ -25,9 +24,14 @@
 		"immunization": {
 			"immunized": "yes|no|unknown",
 			"BGC": false,
-			"OPV/POLIO 0 1 2 3": false,
+			"OPV_POLIO0":false,
+			"OPV_POLIO1":false,
+			"OPV_POLIO2":false,
+			"OPV_POLIO3":false,
 			"PCV": false,
-			"DTP (Pentavalent) Hep B – Hib 1 2 3": false,
+			"HepB_Hib1": false,
+			"HepB_Hib2": false,
+			"HepB_Hib3": false,
 			"Measles": false
 		},
 		"current_height": 140,
@@ -37,19 +41,36 @@
 		"disability": {
 			"disabled": false,
 			"impairment": {
-				"physical": false,
-				"mental": false,
-				"visual": false,
-				"hearing": false,
-				"verbal": false,
-				"unspecified": "",
-				"further_details": ""
+				"physical":{
+					"impaired":true,
+					"details":""
+				},
+				"mental":{
+					"impaired":true,
+					"details":""
+				},
+				"visual":{
+					"impaired":true,
+					"details":""
+				},
+				"hearing":{
+					"impaired":true,
+					"details":""
+				},
+				"verbal":{
+					"impaired":true,
+					"details":""
+				},
+				"unspecified":{
+					"impaired":true,
+					"details":""
+				}
 			}
 		},
 		"specific_diseases": {
-			"known": "yes|no",
+			"known": false,
 			"diseases": {
-				"HIV/AIDS": false,
+				"HIV_AIDS": false,
 				"tuberculosis": false,
 				"epilespy": false,
 				"heart_problems": false,
@@ -69,12 +90,12 @@
 			"medical_diagnosis": false,
 			"chronic_treatment": false,
 			"specialized_medical_facilities": false,
-			"visual_aid": "",
-			"physiotherapy": "",
-			"hearing_aid": "",
-			"surgery": "",
-			"hospice/palliative_care": "",
-			"life_support": "",
+			"visual_aid": false,
+			"physiotherapy": false,
+			"hearing_aid": false,
+			"surgery": false,
+			"hospice_palliative_care": false,
+			"life_support": false,
 			"other": ""
 		}
 	},
@@ -97,7 +118,7 @@
 		"date_of_assessment": "",
 		"assessment_tool": "Portage",
 		"analysis": {
-			"autonomy/self_care": "",
+			"autonomy_self_care": "",
 			"gross_motor_skills": "",
 			"fine_motor_skills": "",
 			"cognitive_development": "",
@@ -107,16 +128,22 @@
 		}
 	},
 	"general_well_being_and_history": {
-
+		"well_being":"",
+		"psychological_state":"",
+		"aspirations":"",
+		"history":"",
+		"important_persons_in_life":"",
+		"connection_with_family":"",
+		"feeling_about_institution":""
 	},
 	"protection_concerns": {
-		"pyhsical_violence": true,
+		"physical_violence": true,
 		"neglect": true,
 		"abandonment": true,
 		"sexual_violence_or_gbv": true,
 		"serious_health_issue": true,
 		"trafficked": true,
-		"pyschological_violence": true,
+		"psychological_violence": true,
 		"street_child": false,
 		"disabled": false,
 		"psychological_distress": "",

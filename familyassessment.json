@@ -27,11 +27,11 @@
 			"name": "",
 			"dob": "",
 			"education_level": "",
-			"schooling": "yes|no",
+			"schooling": true,
 			"relationship_to_child": "",
 			"phone_number": "",
 			"marital_status": {
-				"married": "yes|no",
+				"married": true,
 				"years_in_marriage": 14
 			}
 		},
@@ -39,7 +39,7 @@
 			"name": "",
 			"dob": "",
 			"education_level": "",
-			"schooling": "yes|no",
+			"schooling": false,
 			"relationship_to_child": "",
 			"phone_number": ""
 		}],
@@ -56,7 +56,7 @@
 		"related_to_or_knows_child": true,
 		"true": {
 			"reason_for_separation": "",
-			"regular_contact": "yes|no",
+			"regular_contact": false,
 			"current_family_situation": "",
 			"views_about_TMM_programme": "",
 			"consideration_to_take_back_child": "yes|no",
@@ -67,7 +67,7 @@
 			"motivation_to_take_in_child": "",
 			"current_family_situation": "",
 			"how_will_the_child_fit": "",
-			"wish_to_reintegrate_child_of_particular_age_group": "yes|no",
+			"wish_to_reintegrate_child_of_particular_age_group": true,
 			"expectations": "",
 			"foreseeable_challenges": ""
 		}
@@ -75,11 +75,11 @@
 	"family_assessment": {
 		"family_characterisitics_and_relationships": {
 			"stressful_childhood": {
-				"experienced": "yes|no",
+				"experienced": false,
 				"information": ""
 			},
 			"childhood_abuse_by_adults": {
-				"experienced": "yes|no",
+				"experienced": false,
 				"information": ""
 			},
 			"traumatic_crisis": {
@@ -135,19 +135,21 @@
 			"comments": ""
 		},
 		"social_relationship_and_community_support": {
-			"acceptance_in_the_community": "yes|no",
-			"discrimination_or_harassment": "yes|no",
-			"involvement_in_community_events": "yes|no",
-			"family_members_in_same_village": "yes|no",
+			"acceptance_in_the_community": true,
+			"discrimination_or_harassment": false,
+			"involvement_in_community_events": true,
+			"family_members_in_same_village": false,
 			"further_information": ""
 		},
 		"living_conditions": {
 			"legal_status_of_shelter": "owned|rented|leased",
-			"type_of_shelter": "house|shared house|apartment|homeless",
+			"type_of_shelter": "house|shared_house|apartment|homeless|other",
 			"number_of_rooms_for_adults": 3,
 			"number_of_rooms_for_children": 2,
+			"toilets":{
 			"indoor_toilets": false,
-			"outdoor_toilets": true,
+			"outdoor_toilets": true
+			}
 			"basic_provisions": {
 				"chairs": true,
 				"beds": true,
@@ -162,26 +164,26 @@
 		},
 		"economic_factors": {
 			"regular_income": {
-				"earned": "yes|no",
+				"earned": true,
 				"household_members": [{
 					"name": "",
 					"profession": ""
 				}]
 			},
 			"income_generating_activity": {
-				"seasonal_work": "",
-				"occasional_work": "",
-				"working_abroad": "",
-				"working_away_from_home": "",
-				"remittances": ""
+				"seasonal_work": true,
+				"occasional_work": true,
+				"working_abroad": false,
+				"working_away_from_home":false,
+				"remittances": true
 			},
-			"VUP_Programme": {
-				"enrolled": "yes|no",
-				"level_of_ubudehe": 1
+			"vup_programme": {
+				"enrolled": false
 			},
+			"level_of_ubudehe": 1,
 			"health_insurance": false,
 			"work_impact_on_child_care": {
-				"adversely_impact": "yes",
+				"adversely_impact": false,
 				"explanation": ""
 			},
 			"income_management": false,
@@ -209,17 +211,17 @@
 	},
 	"considerations": {
 		"disabilites_consideration": {
-			"consideration": "yes|no",
+			"consideration": true,
 			"explanation": ""
 		},
 		"siblings_consideration": {
-			"consideration": "yes|no",
+			"consideration": false,
 			"explanation": ""
 		},
-		"additional_notes": ""
-	},
-	"conclusion_and_recommendation": {
+		"additional_notes": "",
+		"conclusion_and_recommendation": {
 		"consideration": "",
 		"explanation": ""
+	}
 	}
 }
